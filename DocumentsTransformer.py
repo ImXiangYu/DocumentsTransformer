@@ -1,3 +1,4 @@
+# DocumentsTransformer.py
 import os
 import pythoncom
 from docx.shared import Mm
