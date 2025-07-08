@@ -28,7 +28,7 @@ pip install docxtpl pythoncom pywin32
 2. 替换 `Image/image.png` 为你自己的图片路径，或修改代码中的图片路径。
 3. 运行程序：
    ```bash
-   python text-to-word-and-pdf.py
+   python DocumentsTransformer.py
    ```
 
 4. 输出结果会打印在控制台上，同时文件保存至 `Saved/` 目录。
@@ -53,9 +53,8 @@ print(result)
 - 若模板文件或图片路径错误，可能导致程序异常中断，请确保路径正确。
 - 生成的文件默认保存在 `Saved/` 目录中，如该目录不存在，程序会自动创建。
 
-## 开发者建议
-- 可以扩展支持多个图片插入、自定义模板路径、多语言支持等。
-- 增加异常处理机制，例如文件读取失败、路径不存在等情况。
+## 参考
+[知乎文章：保姆级别docxtpl教程，你值得拥有](https://www.zhihu.com/tardis/zm/art/1888148733365044222?source_id=1005)
 
 ---
 
